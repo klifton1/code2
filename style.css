@@ -1,0 +1,73 @@
+body {
+  max-width: 1062px;
+  width: 100%;
+  margin: auto;
+  background: url("./img/background.jpg") no-repeat center;
+  height: 100%;
+  color: #000000;
+  
+}
+
+.header {
+  display: flex;
+
+  margin-top: 24px;
+  margin-bottom: 100px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 63px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.main-text {
+  font-weight: 500;
+  font-size: 53px;
+  line-height: 62px;
+}
+
+.quote {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  
+  margin-left: 0;
+
+}
+
+.button-order {
+  all: unset;
+  background: #f6762c;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding: 22px 55px;
+}
+
+.main {
+  max-width: 400px;
+  height: 300px;
+  background-color: #fff;
+  opacity: 80%;
+  padding: 5%;
+}
+
+.logo{
+  width: 60px;
+  
+}
